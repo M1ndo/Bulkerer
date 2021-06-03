@@ -1,2 +1,8 @@
 # Bulkerer
-A In Progress Discord Selfbot , To Delete , Send , Do  Stuff 
+
+## How To Run
+```
+python bulker.py
+```
+# How To Use 
+```$help``` To View All Available Commands .
