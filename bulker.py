@@ -12,7 +12,6 @@ logger.addHandler(handler)
 
 # Authorization: ODQyODU5MXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXz
 Token = "ODQyODU5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXz"
-channelid = "" #Place Channel Id HereÎ
 
 client = discord.Client()
 bot = commands.Bot(command_prefix="$",self_bot=True)
@@ -75,9 +74,9 @@ async def gtav(ctx):
     await bot.change_presence(activity=discord.Game(name="GTA V"))
     await ctx.message.delete()
 
-@bot.command(name='cod',help="Playing Call of Duty®: Modern Warfare®")
+@bot.command(name='cod',help="Playing Call of DutyÂ®: Modern WarfareÂ®")
 async def cod(ctx):
-    await bot.change_presence(activity=discord.Game(name="Call of Duty®: Modern Warfare®"))
+    await bot.change_presence(activity=discord.Game(name="Call of DutyÂ®: Modern WarfareÂ®"))
     await ctx.message.delete()
 
 @bot.command(name='ract',help="Remove activity")
